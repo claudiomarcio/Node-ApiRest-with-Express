@@ -15,6 +15,11 @@
     "config": "^3.2.3",
     "consign": "^0.1.6",
     "express": "^4.17.1",
+    "swagger-ui-express": "^5.0.0",
     "uuidv4": "^6.2.13"
-  }
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.13.1"
+  },
+  "swagger-autogen": "node ./docs/swagger.js"
 }
